@@ -1,3 +1,24 @@
 body {
     background-color: #1d1b38;
 }
+.nav-bar {
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 12px;
+}
+.nav-bar ul {
+    display: inline;
+    float: right;
+    padding: 10px; 
+}
+.nav-bar ul li {
+    display: inline;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: ;
+    
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
