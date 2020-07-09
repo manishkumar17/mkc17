@@ -6,6 +6,7 @@
 body {
     font-size: 25px;
     overflow-x: hidden;
+    background-color: #1d1b38;
 }
 header {
     background-color: #1d1b38;
@@ -25,11 +26,12 @@ header {
     height: 50px;
     width: 40px;
     float: left;
-    margin-top: 20px;
+    margin-left: -10%;
+    margin-top: 10px;
 }
 .nav-links {
     float: right;
-    margin-top: 45px;
+    margin-top: -25px;
     color: whitesmoke;
     font-family: 'Iceland', sans-serif;
     font-size: 90%;
@@ -54,4 +56,23 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    line-height: normal;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content h1 {
+    color: rgb(166, 186, 206);
+}
+.main-content h6 {
+    color: cyan;
+}
+.main-content h2 {
+    color: darkcyan;
+}
+.main-content p {
+    font-size: 20px;
+    color: darkcyan;
+    margin-top: 10px;
+    
 }
