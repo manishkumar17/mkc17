@@ -9,7 +9,9 @@ body {
     background-color: #1d1b38;
 }
 header {
-    background-color: #1d1b38;
+    box-shadow: 0.5px 0.5px 9px;
+    padding: 5px;
+
 }
 .clearfix::after {
     content: ".";
@@ -27,7 +29,7 @@ header {
     width: 40px;
     float: left;
     margin-left: -10%;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .nav-links {
     float: right;
@@ -53,26 +55,57 @@ header {
 .main-content {
     width: 1180px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    height: fit-content;
+    top: 47%;
+    left: 55%;
     transform: translate(-50%, -50%);
-
     line-height: normal;
-    font-size: 40px;
+    font-size: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .main-content h1 {
     color: rgb(166, 186, 206);
+    
 }
-.main-content h6 {
+.main-content span {
     color: cyan;
+    font-size: 18px;
+    
 }
 .main-content h2 {
     color: darkcyan;
+    font-size: 60px;
+    
 }
 .main-content p {
     font-size: 20px;
-    color: darkcyan;
-    margin-top: 10px;
-    
+    color: rgb(153, 175, 252);
+    margin-top: 5%;
+    margin-bottom: 20px;
+}
+.main-content a.get-in-touch {
+    border: 1px solid cyan;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.vert-line1{
+    height: 100px;
+    background-color: rgb(174, 187, 245);
+    width: 2px;
+    position: fixed;
+    top: 93%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+.vert-line2{
+    height: 100px;
+    background-color: rgb(174, 187, 245);
+    width: 2px;
+    position: fixed;
+    top: 93%;
+    right: 4%;
+    transform: translate(-50%, -50%);
 }
