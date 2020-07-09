@@ -11,8 +11,9 @@ body {
 header {
     box-shadow: 0.5px 0.5px 9px;
     padding: 5px;
-
+    transition: box-shadow 0.5s;
 }
+
 .clearfix::after {
     content: ".";
     visibility: hidden;
@@ -32,24 +33,33 @@ header {
     margin-top: 5px;
 }
 .nav-links {
-    float: right;
-    margin-top: -25px;
+    float: right;   
+    margin-top: -35px;
+    margin-right: 10px;
     color: whitesmoke;
-    font-family: 'Iceland', sans-serif;
-    font-size: 90%;
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 60%;
 }
 .nav-links li {
     display: inline-block;
     list-style-type: none;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .nav-links li a {
     color: whitesmoke;
+    transition: all 0.5s ease-in-out;
+    padding: 8px;
     text-decoration: none;
     font-weight: 100;
 }
+.nav-links li a.resume-btn {
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
 .nav-links li a:hover{
-    color: brown;
+    animation: fill 1s forwards;
+    background-color: rgb(17, 47, 80);
+    border-radius: 200px;
 }
 
 .main-content {
@@ -83,13 +93,19 @@ header {
     margin-top: 5%;
     margin-bottom: 20px;
 }
-.main-content a.get-in-touch {
+.main-content .get-in-touch {
     border: 1px solid cyan;
     border-radius: 3px;
     font-size: 15px;
     padding: 10px;
     text-decoration: none;
     color: whitesmoke;
+    transform: background-color 0.2s;
+}
+.get-in-touch:hover {
+    transition: linear 0.3s;
+    background-color: rgba(78, 76, 73, 0.144);
+    box-shadow: 1px 1px 6px black;
 }
 .vert-line1{
     height: 100px;
@@ -108,4 +124,34 @@ header {
     top: 93%;
     right: 4%;
     transform: translate(-50%, -50%);
+}
+
+.Aboutsection {
+    font-size: 15px;
+    width: 1180px;
+    position: absolute;
+    top: 150%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: 'Varela', sans-serif;
+}
+.Aboutsection h1 {
+    color: rgb(247, 189, 247);
+    margin-bottom: 50px;;
+}
+.Aboutsection p {
+    color: steelblue;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+.hr-about {
+  position: absolute;
+  margin-top: -70px;
+  margin-left: 19%;
+}
+.Aboutsection .languages {
+    color: darkcyan;
+    padding: 20px;
+    line-height: 25px;
+    display: inline-block;    
 }
