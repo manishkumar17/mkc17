@@ -7,7 +7,7 @@ body {
     font-size: 25px;
     overflow-x: hidden;
     background-color: #1d1b38;
-    background-image: url(../img/bg.png);
+    background-image: url(./img/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -69,7 +69,6 @@ header {
 .main-content {
     width: 80%;
     position: absolute;
-    height: fit-content;
     top: 70vw;
     left: 54vw;
     transform: translate(-40vw, -10vw);
@@ -94,7 +93,7 @@ header {
     font-size: 1.5vw;
     color: rgb(153, 175, 252);
     margin-top: 5%;
-    margin-bottom: 20px;
+    margin-bottom: 3vw;
 }
 .main-content .get-in-touch {
     border: 1px solid cyan;
