@@ -115,18 +115,17 @@ header {
     background-color: rgb(174, 187, 245);
     width: 2px;
     position: fixed;
-    top: 93%;
-    left: 5%;
-    transform: translate(-50%, -50%);
+    bottom: 0vw;
+    left: 4vw;
+    /* transform: translate(-50%, -50%); */
 }
 .vert-line2{
     height: 100px;
     background-color: rgb(174, 187, 245);
     width: 2px;
     position: fixed;
-    top: 93%;
-    right: 4%;
-    transform: translate(-50%, -50%);
+    bottom: 0vw;
+    right: 4vw;
 }
 
 #Aboutsection {
@@ -157,4 +156,11 @@ header {
     padding: 20px;
     line-height: 25px;
     display: inline-block;    
+}
+#Aboutsection .profile-pic{ 
+    float: right;
+    margin-right: 18vw;
+    margin-top: -1vw;
+    width: 18vw;
+    
 }
