@@ -129,37 +129,39 @@ header {
 }
 
 #Aboutsection {
-    font-size: 15px;
-    width: 1180px;
+    font-size: 1.2vw;
+    width: 60vw;
     position: absolute;
     top: 120vw;
     left: 54vw;
-    transform: translate(-50%, -50%);
+
+    transform: translate(-40vw, -10vw);
     font-family: 'Varela', sans-serif;
 }
 #Aboutsection h1 {
     color: rgb(247, 189, 247);
-    margin-bottom: 50px;
+    margin-bottom: 3.3vw;
 }
 #Aboutsection p {
     color: steelblue;
-    line-height: 20px;
-    word-spacing: 1px;
+    line-height: 1.5vw;
+    word-spacing: 0.1vw;
 }
-.hr-about {
+#Aboutsection .hr-about {
   position: absolute;
-  margin-top: -65px;
-  margin-left: 15%;
+  margin-top: -4vw;
+  margin-left: 14vw;
+  width: 22vw;
+
 }
 #Aboutsection .languages {
     color: darkcyan;
-    padding: 20px;
-    line-height: 25px;
-    display: inline-block;    
+    padding: 2vw;
+    line-height: 1.5vw;    
 }
 #Aboutsection .profile-pic{ 
     float: right;
-    margin-right: 18vw;
+    /* margin-right: 18vw; */
     margin-top: -1vw;
     width: 18vw;
     
