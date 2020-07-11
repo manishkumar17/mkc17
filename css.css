@@ -160,12 +160,12 @@ header {
 }
 .left-social-icons a{
     color: darkcyan;
-    margin-bottom: 0;
-    border-bottom: 1px solid darkcyan;
+    font-size: 1.4vw;
+    padding-bottom: 0;
     transition: all .4s ease;
 }
 .left-social-icons a:hover{
-    margin-bottom: 1vw;
+    padding-bottom: 1vw;
     color: whitesmoke;
 }
 
