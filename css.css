@@ -150,6 +150,24 @@ header {
     bottom: 13.5vw;
     color: whitesmoke;
 }
+.left-social-icons{
+    width: 1vw;
+    position: fixed;
+    bottom: 8vw;
+    left: 3.4vw;
+    line-height: 3vw;
+    
+}
+.left-social-icons a{
+    color: darkcyan;
+    margin-bottom: 0;
+    border-bottom: 1px solid darkcyan;
+    transition: all .4s ease;
+}
+.left-social-icons a:hover{
+    margin-bottom: 1vw;
+    color: whitesmoke;
+}
 
 #Aboutsection {
     font-size: 1.2vw;
