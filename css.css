@@ -207,3 +207,18 @@ header {
     width: 18vw;
     
 }
+.footer{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: black;
+        font-size: 1vw; 
+        text-align: center;
+        top: 145vw;
+        /* transform: translate(-40vw, -10vw); */
+        font-family: 'Varela', sans-serif;
+      }
+.footer span{
+    color: red;
+}      
